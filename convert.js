@@ -28,7 +28,10 @@ http.createServer(function (req, res) {
         }
         im.resize({
             srcData: postData,
-            format: type
+            format: type,
+            density: 240,
+            quality: 1.0,
+            antialias: false
         }, function(err, stdout) {
             if (err) {
                 res.writeHead(500, {'Content-Type': 'text/plain'});
