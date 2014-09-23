@@ -14,7 +14,7 @@
     "url": "http://github.com/wenbin1989/node-convert.git"
   },
   "scripts": {
-    "install-windows-service": "winser -i",
+    "install-windows-service": "winser -i --startcmd \"node convert\"",
     "uninstall-windows-service": "winser -r"
   }
 }
