@@ -1,0 +1,20 @@
+{
+  "name": "node-convert",
+  "description": "use node.js and imagemagick to implement an image format convert service.",
+  "version": "0.1.0",
+  "author": {
+    "name": "wenbin wang",
+    "email": "wenbin1989@gmail.com"
+  },
+  "licenses": [
+    "MIT"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/wenbin1989/node-convert.git"
+  },
+  "scripts": {
+    "postinstall": "winser -i -s -c",
+    "preuninstall": "winser -r -x -s"
+  }
+}
